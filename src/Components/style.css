@@ -1,0 +1,177 @@
+body {
+  background: #ecedef;
+}
+
+/*===========================================
+            LOGIN CSS
+=============================================*/
+.FormContainer {
+  position: absolute;
+  background: #fff;
+  width: 50%;
+  height: 300px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.InputBx {
+  width: 50%;
+  margin: 0px 50px;
+}
+
+.EmailInputBx,
+.PassInputBx,
+.buttonHolder {
+  width: 100%;
+  height: 40px;
+  margin: 10px 0px;
+  padding: 0;
+  display: flex;
+}
+
+.buttonHolder {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.EmailInputBx label,
+.PassInputBx label {
+  background: #ecedef;
+  padding: 10px;
+  height: 100%;
+  margin: 0;
+}
+
+.EmailInputBx input,
+.PassInputBx input {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0px 15px;
+  border: 2px solid #ecedef;
+  outline: none;
+}
+
+.FormDesc {
+  width: 50%;
+  background: #321fdb;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-left: 10px;
+  color: #fff;
+}
+
+.FormDesc h1 {
+  font-size: 20px;
+}
+.FormDesc p {
+  font-size: 15px;
+  margin: 0px 10px;
+}
+
+/*=============================================
+                USER SECTION CSS
+==============================================*/
+
+.userContainer {
+  background: #fff;
+  height: 500px;
+  margin: 20px;
+  border-radius: 4px;
+  overflow: hidden;
+  transform: scale(1);
+}
+
+.ContainerHead {
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 20px;
+  align-items: center;
+}
+
+.ContainerHead p {
+  margin: 0;
+  padding: 0;
+}
+
+.inline-margined {
+  display: flex;
+}
+
+.inline-margined > * {
+  margin-left: 10px;
+}
+
+table {
+  margin: 20px 10px;
+}
+
+.createUserFormContainer {
+  position: absolute;
+  width: 40%;
+  height: 300px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  transition: 0.5s all;
+}
+
+.mybtn {
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.Navigation {
+  width: 100%;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Navigation ul {
+  display: flex;
+  align-items: center;
+}
+
+.Navigation ul li {
+  position: relative;
+  list-style: none;
+  padding: 0px 20px;
+}
+.Navigation ul li a {
+  text-decoration: none;
+  color: #bbb9be;
+}
+
+.badgeIcon {
+  position: absolute;
+  font-size: 8px;
+  width: 12px;
+  height: 12px;
+  background: red;
+  border-radius: 50%;
+  top: 2px;
+  right: 17px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.blueBadge {
+  background: #3399fe;
+}
+
+.yellowBadge {
+  background: #f8af23;
+}
